@@ -1,0 +1,429 @@
+/* for android  */
+@media screen and (max-width: 640px) {
+  /* for navgation */
+  .nav {
+    margin-bottom: 10px;
+  }
+  .ul1 {
+    margin-bottom: 10px;
+    border-radius: 10px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(12, 10, 10);
+  }
+
+  .li1 {
+    float: left;
+    background-color: rgb(12, 10, 10);
+    border-right: 0px solid #bbb;
+  }
+
+  .li1:last-child {
+    border-right: none;
+  }
+
+  .li1 a {
+    background-color: rgb(12, 10, 10);
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 14px;
+    text-decoration: none;
+  }
+
+  .li1 a:hover {
+    background-color: rgb(28, 25, 25);
+  }
+  * {
+    background-color: rgb(30, 24, 24);
+    box-sizing: border-box;
+  }
+  .error {
+    text-align: center;
+  }
+  .main {
+    padding: auto;
+  }
+  .services {
+    float: left;
+  }
+  .img2 {
+    width: 380px;
+    border-radius: 30px;
+    opacity: 0.5;
+    transition: 1s ease;
+  }
+  .img2:hover {
+    opacity: 1;
+    transition: 1s ease;
+  }
+  .img1 {
+    display: none;
+  }
+  .img1:hover {
+    opacity: 1;
+    transition: 1s ease;
+  }
+  .cloth1 {
+    border-radius: 20px;
+    padding-bottom: 2.5px;
+    padding-top: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 30px;
+    margin-left: 10px;
+    background-color: rgb(209, 207, 207);
+    float: right;
+  }
+  .cloth2 {
+    border-radius: 20px;
+    padding-bottom: 2.5px;
+    padding-top: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 30px;
+    margin-left: 10px;
+    background-color: rgb(209, 207, 207);
+    float: right;
+  }
+  .cloth3 {
+    border-radius: 20px;
+    padding-top: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 30px;
+    margin-left: 10px;
+    background-color: rgb(209, 207, 207);
+    float: right;
+  }
+
+  .t1 {
+    text-align: left;
+    background-color: rgb(209, 207, 207);
+  }
+  .cost {
+    padding-left: 1.5px;
+    background-color: rgb(209, 207, 207);
+  }
+  .t3 {
+    background-color: rgb(209, 207, 207);
+    color: rgb(209, 207, 207);
+  }
+  .des {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    background-color: rgb(209, 207, 207);
+  }
+  a:link {
+    text-decoration: none;
+  }
+  .button {
+    color: rgb(209, 207, 207);
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px 110px;
+    transition: 1s ease;
+  }
+  .button:hover {
+    background-color: #ffcccc;
+    box-shadow: 10px 10px 5px black;
+    transition: 1s ease;
+    color: black;
+  }
+  .img {
+    border-radius: 10px;
+    height: 210px;
+    opacity: 0.5;
+    transition: 1s ease;
+  }
+
+  .img:hover {
+    box-shadow: 10px 10px 5px black;
+    height: 230px;
+    opacity: 1;
+    transition: 1s ease;
+  }
+}
+/* for tablet */
+@media screen and (max-width: 1000px) and (min-width: 640px) {
+  /* for navgation */
+  .ul1 {
+    border-radius: 10px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(12, 10, 10);
+  }
+
+  .li1 {
+    float: left;
+    background-color: rgb(12, 10, 10);
+    border-right: 0px solid #bbb;
+  }
+
+  .li1:last-child {
+    border-right: none;
+  }
+
+  .li1 a {
+    font-size: 20px;
+    background-color: rgb(12, 10, 10);
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 28px 62px;
+    text-decoration: none;
+  }
+
+  .li1 a:hover {
+    background-color: rgb(28, 25, 25);
+  }
+  .img2 {
+    display: none;
+  }
+  * {
+    background-color: rgb(30, 24, 24);
+    box-sizing: border-box;
+  }
+  .error {
+    text-align: center;
+  }
+  .main {
+    padding: auto;
+  }
+  .services {
+    float: left;
+    margin-left: 80px;
+    margin-top: 100px;
+  }
+  .img1 {
+    border-radius: 30px;
+    opacity: 0.5;
+    transition: 1s ease;
+  }
+  .img1:hover {
+    opacity: 1;
+    transition: 1s ease;
+  }
+  .cloth1 {
+    border-radius: 5px;
+    padding-bottom: 2.5px;
+    padding-top: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 100px;
+    margin-left: 10px;
+    background-color: rgb(209, 207, 207);
+    float: right;
+  }
+  .cloth2 {
+    border-radius: 5px;
+    padding-bottom: 2.5px;
+    padding-top: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 100px;
+    margin-left: 10px;
+    background-color: rgb(209, 207, 207);
+    float: right;
+  }
+  .cloth3 {
+    border-radius: 5px;
+    padding-top: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 100px;
+    margin-left: 10px;
+    background-color: rgb(209, 207, 207);
+    float: right;
+  }
+
+  .t1 {
+    text-align: left;
+    background-color: rgb(209, 207, 207);
+  }
+  .cost {
+    padding-left: 1.5px;
+    background-color: rgb(209, 207, 207);
+  }
+  .t3 {
+    background-color: rgb(209, 207, 207);
+    color: rgb(209, 207, 207);
+  }
+  .des {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    background-color: rgb(209, 207, 207);
+  }
+  a:link {
+    text-decoration: none;
+  }
+  .button {
+    color: rgb(209, 207, 207);
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px 110px;
+    transition: 1s ease;
+  }
+  .button:hover {
+    background-color: #ffcccc;
+    box-shadow: 10px 10px 5px black;
+    transition: 1s ease;
+    color: black;
+  }
+  .img {
+    border-radius: 10px;
+    height: 210px;
+    opacity: 0.5;
+    transition: 1s ease;
+  }
+
+  .img:hover {
+    box-shadow: 10px 10px 5px black;
+    height: 230px;
+    opacity: 1;
+    transition: 1s ease;
+  }
+}
+/* for desktop */
+@media screen and (max-width: 2000px) and (min-width: 1000px) {
+  /* for navgation */
+  .ul1 {
+    border-radius: 10px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(12, 10, 10);
+  }
+
+  .li1 {
+    float: left;
+    background-color: rgb(12, 10, 10);
+    border-right: 0px solid #bbb;
+  }
+
+  .li1:last-child {
+    border-right: none;
+  }
+
+  .li1 a {
+    font-size: 20px;
+    background-color: rgb(12, 10, 10);
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 28px 64px;
+    text-decoration: none;
+  }
+
+  .li1 a:hover {
+    background-color: rgb(28, 25, 25);
+  }
+  .img2 {
+    display: none;
+  }
+  * {
+    background-color: rgb(30, 24, 24);
+    box-sizing: border-box;
+  }
+  .error {
+    text-align: center;
+  }
+  .main {
+    padding: auto;
+  }
+  .services {
+    float: left;
+    margin-left: 75px;
+    margin-top: 100px;
+  }
+  .img1 {
+    border-radius: 30px;
+    opacity: 0.5;
+    transition: 1s ease;
+  }
+  .img1:hover {
+    opacity: 1;
+    transition: 1s ease;
+  }
+  .cloth1 {
+    border-radius: 5px;
+    padding-bottom: 2.5px;
+    padding-top: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 100px;
+    margin-left: 10px;
+    background-color: rgb(209, 207, 207);
+    float: right;
+  }
+  .cloth2 {
+    border-radius: 5px;
+    padding-bottom: 2.5px;
+    padding-top: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 100px;
+    margin-left: 10px;
+    background-color: rgb(209, 207, 207);
+    float: right;
+  }
+  .cloth3 {
+    border-radius: 5px;
+    padding-top: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 100px;
+    margin-left: 10px;
+    background-color: rgb(209, 207, 207);
+    float: right;
+  }
+
+  .t1 {
+    text-align: left;
+    background-color: rgb(209, 207, 207);
+  }
+  .cost {
+    padding-left: 1.5px;
+    background-color: rgb(209, 207, 207);
+  }
+  .t3 {
+    background-color: rgb(209, 207, 207);
+    color: rgb(209, 207, 207);
+  }
+  .des {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    background-color: rgb(209, 207, 207);
+  }
+  a:link {
+    text-decoration: none;
+  }
+  .button {
+    color: rgb(209, 207, 207);
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px 110px;
+    transition: 1s ease;
+  }
+  .button:hover {
+    background-color: #ffcccc;
+    box-shadow: 10px 10px 5px black;
+    transition: 1s ease;
+    color: black;
+  }
+  .img {
+    border-radius: 10px;
+    height: 210px;
+    opacity: 0.5;
+    transition: 1s ease;
+  }
+
+  .img:hover {
+    box-shadow: 10px 10px 5px black;
+    height: 230px;
+    opacity: 1;
+    transition: 1s ease;
+  }
+}
