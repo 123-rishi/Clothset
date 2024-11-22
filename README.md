@@ -15,3 +15,6 @@
 - **HTML**: Provides the basic structure of the application.
 - **CSS**: Styles the interface and ensures responsiveness.
 - **JSON**: Handles clothing data for easy management and updates.
+
+## Output
+![Uploading image.png…]()
