@@ -17,4 +17,5 @@
 - **JSON**: Handles clothing data for easy management and updates.
 
 ## Output
-![Uploading image.png…]()
+![image](https://github.com/user-attachments/assets/3373c24e-3cfa-423d-b377-a76ce2b67420)
+
